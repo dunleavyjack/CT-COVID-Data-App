@@ -16,6 +16,7 @@
 		041D276A2580B27400A2A541 /* CT_Covid_Data_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041D27692580B27400A2A541 /* CT_Covid_Data_AppTests.swift */; };
 		041D27752580B27400A2A541 /* CT_Covid_Data_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041D27742580B27400A2A541 /* CT_Covid_Data_AppUITests.swift */; };
 		041D27952580DD2C00A2A541 /* Poppins in Resources */ = {isa = PBXBuildFile; fileRef = 041D27942580DD2C00A2A541 /* Poppins */; };
+		041D27E125849A9D00A2A541 /* Totals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041D27E025849A9D00A2A541 /* Totals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		041D27742580B27400A2A541 /* CT_Covid_Data_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CT_Covid_Data_AppUITests.swift; sourceTree = "<group>"; };
 		041D27762580B27400A2A541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		041D27942580DD2C00A2A541 /* Poppins */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Poppins; path = ../../../../../fonts/Poppins; sourceTree = "<group>"; };
+		041D27E025849A9D00A2A541 /* Totals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Totals.swift; path = "../../../conneticut-covid-daily/conneticut-covid-daily/Totals.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				041D275B2580B27400A2A541 /* Assets.xcassets */,
 				041D275D2580B27400A2A541 /* LaunchScreen.storyboard */,
 				041D27602580B27400A2A541 /* Info.plist */,
+				041D27E025849A9D00A2A541 /* Totals.swift */,
 			);
 			path = "CT-Covid-Data-App";
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				041D27572580B26F00A2A541 /* ViewController.swift in Sources */,
 				041D27532580B26F00A2A541 /* AppDelegate.swift in Sources */,
+				041D27E125849A9D00A2A541 /* Totals.swift in Sources */,
 				041D27552580B26F00A2A541 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

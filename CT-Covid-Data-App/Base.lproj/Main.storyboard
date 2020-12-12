@@ -275,6 +275,17 @@
                         </constraints>
                     </view>
                     <size key="freeformSize" width="414" height="768"/>
+                    <connections>
+                        <outlet property="confirmedLabel" destination="2yh-w3-39u" id="JwR-1e-Gem"/>
+                        <outlet property="dateLabel" destination="bBu-Bu-Ed8" id="JVj-3s-2Eo"/>
+                        <outlet property="newCasesLabel" destination="9nO-6G-o7i" id="iTb-l1-1NM"/>
+                        <outlet property="percentChangeLabel" destination="MNa-jK-nd6" id="sWs-0u-buF"/>
+                        <outlet property="percentChangeTriangle" destination="IC9-B6-r4b" id="2lt-2I-EVc"/>
+                        <outlet property="percentPositiveLabel" destination="Rhp-bc-QMy" id="TMn-BI-Eac"/>
+                        <outlet property="probableLabel" destination="Lbf-ds-0nM" id="1ck-b0-Vzw"/>
+                        <outlet property="testsLabel" destination="VXX-dE-jCZ" id="FQt-QL-jUK"/>
+                        <outlet property="totalCasesLabel" destination="aq6-MF-fGu" id="Pe5-TK-dVZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
