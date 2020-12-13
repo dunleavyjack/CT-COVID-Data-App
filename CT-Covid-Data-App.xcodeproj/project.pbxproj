@@ -17,6 +17,7 @@
 		041D27752580B27400A2A541 /* CT_Covid_Data_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041D27742580B27400A2A541 /* CT_Covid_Data_AppUITests.swift */; };
 		041D27952580DD2C00A2A541 /* Poppins in Resources */ = {isa = PBXBuildFile; fileRef = 041D27942580DD2C00A2A541 /* Poppins */; };
 		041D27E125849A9D00A2A541 /* Totals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041D27E025849A9D00A2A541 /* Totals.swift */; };
+		04A68318258527AA0046E8E4 /* DataAlgos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A68317258527AA0046E8E4 /* DataAlgos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		041D27762580B27400A2A541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		041D27942580DD2C00A2A541 /* Poppins */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Poppins; path = ../../../../../fonts/Poppins; sourceTree = "<group>"; };
 		041D27E025849A9D00A2A541 /* Totals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Totals.swift; path = "../../../conneticut-covid-daily/conneticut-covid-daily/Totals.swift"; sourceTree = "<group>"; };
+		04A68317258527AA0046E8E4 /* DataAlgos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataAlgos.swift; path = "../../../conneticut-covid-stats/conneticut-covid-stats/DataAlgos.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				041D275D2580B27400A2A541 /* LaunchScreen.storyboard */,
 				041D27602580B27400A2A541 /* Info.plist */,
 				041D27E025849A9D00A2A541 /* Totals.swift */,
+				04A68317258527AA0046E8E4 /* DataAlgos.swift */,
 			);
 			path = "CT-Covid-Data-App";
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A68318258527AA0046E8E4 /* DataAlgos.swift in Sources */,
 				041D27572580B26F00A2A541 /* ViewController.swift in Sources */,
 				041D27532580B26F00A2A541 /* AppDelegate.swift in Sources */,
 				041D27E125849A9D00A2A541 /* Totals.swift in Sources */,
@@ -445,6 +449,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KYM5GGBPCB;
 				INFOPLIST_FILE = "CT-Covid-Data-App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -463,6 +468,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KYM5GGBPCB;
 				INFOPLIST_FILE = "CT-Covid-Data-App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
