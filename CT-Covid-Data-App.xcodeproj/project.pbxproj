@@ -15,9 +15,9 @@
 		041D275F2580B27400A2A541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041D275D2580B27400A2A541 /* LaunchScreen.storyboard */; };
 		041D276A2580B27400A2A541 /* CT_Covid_Data_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041D27692580B27400A2A541 /* CT_Covid_Data_AppTests.swift */; };
 		041D27752580B27400A2A541 /* CT_Covid_Data_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041D27742580B27400A2A541 /* CT_Covid_Data_AppUITests.swift */; };
-		041D27952580DD2C00A2A541 /* Poppins in Resources */ = {isa = PBXBuildFile; fileRef = 041D27942580DD2C00A2A541 /* Poppins */; };
-		041D27E125849A9D00A2A541 /* Totals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041D27E025849A9D00A2A541 /* Totals.swift */; };
-		04A68318258527AA0046E8E4 /* DataAlgos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A68317258527AA0046E8E4 /* DataAlgos.swift */; };
+		047ABF8A25865239006054AB /* DataAlgos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047ABF8925865239006054AB /* DataAlgos.swift */; };
+		047ABF8F25865253006054AB /* Totals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047ABF8E25865253006054AB /* Totals.swift */; };
+		047ABF9425865263006054AB /* Poppins in Resources */ = {isa = PBXBuildFile; fileRef = 047ABF9325865263006054AB /* Poppins */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,9 +52,28 @@
 		041D27702580B27400A2A541 /* CT-Covid-Data-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CT-Covid-Data-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		041D27742580B27400A2A541 /* CT_Covid_Data_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CT_Covid_Data_AppUITests.swift; sourceTree = "<group>"; };
 		041D27762580B27400A2A541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		041D27942580DD2C00A2A541 /* Poppins */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Poppins; path = ../../../../../fonts/Poppins; sourceTree = "<group>"; };
-		041D27E025849A9D00A2A541 /* Totals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Totals.swift; path = "../../../conneticut-covid-daily/conneticut-covid-daily/Totals.swift"; sourceTree = "<group>"; };
-		04A68317258527AA0046E8E4 /* DataAlgos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataAlgos.swift; path = "../../../conneticut-covid-stats/conneticut-covid-stats/DataAlgos.swift"; sourceTree = "<group>"; };
+		0470E95025865AAB001AA027 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		0470E95125865AAB001AA027 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		0470E95225865AAC001AA027 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		0470E95325865AAC001AA027 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		0470E95425865AAC001AA027 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		0470E95525865AAC001AA027 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		0470E95625865AAC001AA027 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		0470E95725865AAC001AA027 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		0470E95825865AAC001AA027 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		0470E95925865AAC001AA027 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		0470E95A25865AAC001AA027 /* OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		0470E95B25865AAC001AA027 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		0470E95C25865AAC001AA027 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		0470E95D25865AAC001AA027 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		0470E95E25865AAC001AA027 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		0470E95F25865AAC001AA027 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		0470E96025865AAC001AA027 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		0470E96125865AAC001AA027 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		0470E96225865AAC001AA027 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		047ABF8925865239006054AB /* DataAlgos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataAlgos.swift; path = "../../conneticut-covid-stats/conneticut-covid-stats/DataAlgos.swift"; sourceTree = "<group>"; };
+		047ABF8E25865253006054AB /* Totals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Totals.swift; path = "../../conneticut-covid-daily/conneticut-covid-daily/Totals.swift"; sourceTree = "<group>"; };
+		047ABF9325865263006054AB /* Poppins */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Poppins; path = ../../../../../../fonts/Poppins; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +104,7 @@
 		041D27462580B26F00A2A541 = {
 			isa = PBXGroup;
 			children = (
-				041D27942580DD2C00A2A541 /* Poppins */,
+				047ABF9325865263006054AB /* Poppins */,
 				041D27512580B26F00A2A541 /* CT-Covid-Data-App */,
 				041D27682580B27400A2A541 /* CT-Covid-Data-AppTests */,
 				041D27732580B27400A2A541 /* CT-Covid-Data-AppUITests */,
@@ -106,6 +125,7 @@
 		041D27512580B26F00A2A541 /* CT-Covid-Data-App */ = {
 			isa = PBXGroup;
 			children = (
+				0470E94F25865AAB001AA027 /* Poppins */,
 				041D27522580B26F00A2A541 /* AppDelegate.swift */,
 				041D27542580B26F00A2A541 /* SceneDelegate.swift */,
 				041D27562580B26F00A2A541 /* ViewController.swift */,
@@ -113,8 +133,8 @@
 				041D275B2580B27400A2A541 /* Assets.xcassets */,
 				041D275D2580B27400A2A541 /* LaunchScreen.storyboard */,
 				041D27602580B27400A2A541 /* Info.plist */,
-				041D27E025849A9D00A2A541 /* Totals.swift */,
-				04A68317258527AA0046E8E4 /* DataAlgos.swift */,
+				047ABF8E25865253006054AB /* Totals.swift */,
+				047ABF8925865239006054AB /* DataAlgos.swift */,
 			);
 			path = "CT-Covid-Data-App";
 			sourceTree = "<group>";
@@ -135,6 +155,32 @@
 				041D27762580B27400A2A541 /* Info.plist */,
 			);
 			path = "CT-Covid-Data-AppUITests";
+			sourceTree = "<group>";
+		};
+		0470E94F25865AAB001AA027 /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				0470E95025865AAB001AA027 /* Poppins-ExtraLight.ttf */,
+				0470E95125865AAB001AA027 /* Poppins-ThinItalic.ttf */,
+				0470E95225865AAC001AA027 /* Poppins-ExtraLightItalic.ttf */,
+				0470E95325865AAC001AA027 /* Poppins-BoldItalic.ttf */,
+				0470E95425865AAC001AA027 /* Poppins-Light.ttf */,
+				0470E95525865AAC001AA027 /* Poppins-Medium.ttf */,
+				0470E95625865AAC001AA027 /* Poppins-SemiBoldItalic.ttf */,
+				0470E95725865AAC001AA027 /* Poppins-ExtraBoldItalic.ttf */,
+				0470E95825865AAC001AA027 /* Poppins-ExtraBold.ttf */,
+				0470E95925865AAC001AA027 /* Poppins-BlackItalic.ttf */,
+				0470E95A25865AAC001AA027 /* OFL.txt */,
+				0470E95B25865AAC001AA027 /* Poppins-Regular.ttf */,
+				0470E95C25865AAC001AA027 /* Poppins-LightItalic.ttf */,
+				0470E95D25865AAC001AA027 /* Poppins-Bold.ttf */,
+				0470E95E25865AAC001AA027 /* Poppins-Black.ttf */,
+				0470E95F25865AAC001AA027 /* Poppins-Thin.ttf */,
+				0470E96025865AAC001AA027 /* Poppins-SemiBold.ttf */,
+				0470E96125865AAC001AA027 /* Poppins-Italic.ttf */,
+				0470E96225865AAC001AA027 /* Poppins-MediumItalic.ttf */,
+			);
+			path = Poppins;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,7 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041D27952580DD2C00A2A541 /* Poppins in Resources */,
+				047ABF9425865263006054AB /* Poppins in Resources */,
 				041D275F2580B27400A2A541 /* LaunchScreen.storyboard in Resources */,
 				041D275C2580B27400A2A541 /* Assets.xcassets in Resources */,
 				041D275A2580B26F00A2A541 /* Main.storyboard in Resources */,
@@ -268,10 +314,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04A68318258527AA0046E8E4 /* DataAlgos.swift in Sources */,
+				047ABF8F25865253006054AB /* Totals.swift in Sources */,
 				041D27572580B26F00A2A541 /* ViewController.swift in Sources */,
 				041D27532580B26F00A2A541 /* AppDelegate.swift in Sources */,
-				041D27E125849A9D00A2A541 /* Totals.swift in Sources */,
+				047ABF8A25865239006054AB /* DataAlgos.swift in Sources */,
 				041D27552580B26F00A2A541 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
