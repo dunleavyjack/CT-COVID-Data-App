@@ -47,6 +47,9 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hEZ-ki-ZuY">
                                                 <rect key="frame" x="27.666666666666657" y="708.33333333333337" width="359" height="44"/>
                                                 <state key="normal" backgroundImage="Group 12"/>
+                                                <connections>
+                                                    <action selector="linkButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uzf-sk-onP"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="88,956" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aq6-MF-fGu">
                                                 <rect key="frame" x="158.66666666666666" y="633.66666666666663" width="96.666666666666657" height="39.333333333333371"/>

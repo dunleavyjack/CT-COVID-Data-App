@@ -62,7 +62,6 @@
 		0470E95725865AAC001AA027 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 		0470E95825865AAC001AA027 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
 		0470E95925865AAC001AA027 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
-		0470E95A25865AAC001AA027 /* OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		0470E95B25865AAC001AA027 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		0470E95C25865AAC001AA027 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
 		0470E95D25865AAC001AA027 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
@@ -125,7 +124,7 @@
 		041D27512580B26F00A2A541 /* CT-Covid-Data-App */ = {
 			isa = PBXGroup;
 			children = (
-				0470E94F25865AAB001AA027 /* Poppins */,
+				0470E94F25865AAB001AA027 /* Fonts */,
 				041D27522580B26F00A2A541 /* AppDelegate.swift */,
 				041D27542580B26F00A2A541 /* SceneDelegate.swift */,
 				041D27562580B26F00A2A541 /* ViewController.swift */,
@@ -157,7 +156,7 @@
 			path = "CT-Covid-Data-AppUITests";
 			sourceTree = "<group>";
 		};
-		0470E94F25865AAB001AA027 /* Poppins */ = {
+		0470E94F25865AAB001AA027 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
 				0470E95025865AAB001AA027 /* Poppins-ExtraLight.ttf */,
@@ -170,7 +169,6 @@
 				0470E95725865AAC001AA027 /* Poppins-ExtraBoldItalic.ttf */,
 				0470E95825865AAC001AA027 /* Poppins-ExtraBold.ttf */,
 				0470E95925865AAC001AA027 /* Poppins-BlackItalic.ttf */,
-				0470E95A25865AAC001AA027 /* OFL.txt */,
 				0470E95B25865AAC001AA027 /* Poppins-Regular.ttf */,
 				0470E95C25865AAC001AA027 /* Poppins-LightItalic.ttf */,
 				0470E95D25865AAC001AA027 /* Poppins-Bold.ttf */,
@@ -180,7 +178,7 @@
 				0470E96125865AAC001AA027 /* Poppins-Italic.ttf */,
 				0470E96225865AAC001AA027 /* Poppins-MediumItalic.ttf */,
 			);
-			path = Poppins;
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

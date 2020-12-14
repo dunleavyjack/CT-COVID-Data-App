@@ -21,6 +21,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var testsLabel: UILabel!
     @IBOutlet weak var totalCasesLabel: UILabel!
     
+    @IBAction func linkButton(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://portal.ct.gov/Coronavirus" )! as URL, options: [:], completionHandler: nil)
+    }
     // Buttons end here
         
     override func viewDidLoad() {
