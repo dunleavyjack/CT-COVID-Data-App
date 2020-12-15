@@ -15,13 +15,13 @@
 		041D275F2580B27400A2A541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041D275D2580B27400A2A541 /* LaunchScreen.storyboard */; };
 		041D276A2580B27400A2A541 /* CT_Covid_Data_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041D27692580B27400A2A541 /* CT_Covid_Data_AppTests.swift */; };
 		041D27752580B27400A2A541 /* CT_Covid_Data_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041D27742580B27400A2A541 /* CT_Covid_Data_AppUITests.swift */; };
+		04224C8C2588F8B600F2F6C1 /* Totals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04224C8B2588F8B600F2F6C1 /* Totals.swift */; };
+		04224C942588F95B00F2F6C1 /* DataAlgos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04224C932588F95B00F2F6C1 /* DataAlgos.swift */; };
 		0470E9A2258896BC001AA027 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0470E99525889643001AA027 /* Poppins-Italic.ttf */; };
 		0470E9A6258896BF001AA027 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0470E99425889643001AA027 /* Poppins-SemiBold.ttf */; };
 		0470E9B2258896FB001AA027 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0470E98925889643001AA027 /* Poppins-Medium.ttf */; };
 		0470E9B6258896FD001AA027 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0470E98C25889643001AA027 /* Poppins-ExtraBold.ttf */; };
 		0470E9BA25889709001AA027 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0470E98F25889643001AA027 /* Poppins-Regular.ttf */; };
-		047ABF8A25865239006054AB /* DataAlgos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047ABF8925865239006054AB /* DataAlgos.swift */; };
-		047ABF8F25865253006054AB /* Totals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047ABF8E25865253006054AB /* Totals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,14 +56,14 @@
 		041D27702580B27400A2A541 /* CT-Covid-Data-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CT-Covid-Data-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		041D27742580B27400A2A541 /* CT_Covid_Data_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CT_Covid_Data_AppUITests.swift; sourceTree = "<group>"; };
 		041D27762580B27400A2A541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04224C8B2588F8B600F2F6C1 /* Totals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Totals.swift; sourceTree = "<group>"; };
+		04224C932588F95B00F2F6C1 /* DataAlgos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAlgos.swift; sourceTree = "<group>"; };
 		0470E98925889643001AA027 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		0470E98C25889643001AA027 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
 		0470E98F25889643001AA027 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		0470E99125889643001AA027 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		0470E99425889643001AA027 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		0470E99525889643001AA027 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
-		047ABF8925865239006054AB /* DataAlgos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataAlgos.swift; path = "../../conneticut-covid-stats/conneticut-covid-stats/DataAlgos.swift"; sourceTree = "<group>"; };
-		047ABF8E25865253006054AB /* Totals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Totals.swift; path = "../../conneticut-covid-daily/conneticut-covid-daily/Totals.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,8 +122,8 @@
 				041D275B2580B27400A2A541 /* Assets.xcassets */,
 				041D275D2580B27400A2A541 /* LaunchScreen.storyboard */,
 				041D27602580B27400A2A541 /* Info.plist */,
-				047ABF8E25865253006054AB /* Totals.swift */,
-				047ABF8925865239006054AB /* DataAlgos.swift */,
+				04224C8B2588F8B600F2F6C1 /* Totals.swift */,
+				04224C932588F95B00F2F6C1 /* DataAlgos.swift */,
 			);
 			path = "CT-Covid-Data-App";
 			sourceTree = "<group>";
@@ -295,10 +295,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				047ABF8F25865253006054AB /* Totals.swift in Sources */,
+				04224C942588F95B00F2F6C1 /* DataAlgos.swift in Sources */,
 				041D27572580B26F00A2A541 /* ViewController.swift in Sources */,
 				041D27532580B26F00A2A541 /* AppDelegate.swift in Sources */,
-				047ABF8A25865239006054AB /* DataAlgos.swift in Sources */,
+				04224C8C2588F8B600F2F6C1 /* Totals.swift in Sources */,
 				041D27552580B26F00A2A541 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
