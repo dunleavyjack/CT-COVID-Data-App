@@ -99,11 +99,11 @@ class ViewController: UIViewController {
                 
                 self.percentPositiveLabel.text = todayPercent
                 self.dateLabel.text = todayDate
-                self.newCasesLabel.text = newCases
-                self.confirmedLabel.text = confirmedCases
-                self.probableLabel.text = probableCases
-                self.testsLabel.text = todaysTests
-                self.totalCasesLabel.text = todayTotalCases
+                self.newCasesLabel.text = addCommas(numberString: newCases)
+                self.confirmedLabel.text = addCommas(numberString: confirmedCases)
+                self.probableLabel.text = addCommas(numberString: probableCases)
+                self.testsLabel.text = addCommas(numberString: todaysTests)
+                self.totalCasesLabel.text = addCommas(numberString: todayTotalCases)
             }
 //
 //            print("############# Today ##################")

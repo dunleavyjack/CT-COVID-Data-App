@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
@@ -24,7 +26,12 @@
 	<true/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Poppins</string>
+		<string>Poppins-Bold.ttf</string>
+		<string>Poppins-Regular.ttf</string>
+		<string>Poppins-Italic.ttf</string>
+		<string>Poppins-SemiBold.ttf</string>
+		<string>Poppins-Medium.ttf</string>
+		<string>Poppins-ExtraBold.ttf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
